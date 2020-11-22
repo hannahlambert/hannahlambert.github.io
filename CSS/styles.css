@@ -13,4 +13,20 @@ body {
     max-width: 500px;
     margin: 0 auto;
 }
-
+.hero-image-box {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 0px;
+    align-content: center;
+    justify-content: center;
+    align-items: start;
+    height: 100%;
+}
+.hero-image-box {
+    height: 100vh;
+    max-width: 100%;
+    display: grid;
+    grid-column: 1 / -1;
+    grid-row: 1 / -1 ;
+}
