@@ -1,18 +1,99 @@
+
 html {
 font-size: 100%;
+line-height: 1m5rem;
+box-sizing: border-box;
 font-family: Arial, Helvetica, sans-serif;
-}
-
-h1 { 
-    color: cornflowerblue;
-    background-color: peachpuff;
+height: 100%;
 }
 
 body {
-    background-color: lightgoldenrodyellow;
-    max-width: 500px;
     margin: 0 auto;
+    padding: 0;
+    min-height: 100%;
 }
+ 
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.nav-bar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    line-height: hidden;
+    background-color: #fff;
+}
+
+.logo,
+.nav-menu {
+    text-transform: uppercase;
+}
+.logo
+.nav-item {
+ white-space: nowrap;
+}
+
+.nav-menu{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0; 
+    margin: 0;
+}
+.nav-item{
+    flex: 1 0 33.3%;
+    text-align: center;
+}
+.social-nav-item {
+    flex: 1 1 10%;
+}
+.logo a
+.nav-menu a {
+    display: block;
+    text-decoration: none;
+    letter-spacing: 0.2rem;
+    padding: 0.8rem;
+    color: #000;
+    }
+.logo a {
+    font-weight: 700;
+    font-size: 2rem;
+}
+.nav-menu a {
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    border-bottom: 1px solid #fff;
+    transition: all ease 0.1s;
+}
+.nav-menu a:hover {
+    border-bottom: 1px solid #000;
+}
+.hero-nav {
+    background: none;
+}
+.hero-nav .logo a,
+.hero-nav .nav-menu a {
+    color: white;
+}
+.hero-nav .nav-menu a:hover {
+    border-bottom: 1px solid #ffffff;
+}
+.hero-nav .nav-menu a {
+    border-bottom: 1px solid rgba (0,0,0,0);
+}
+
 .hero-image-box {
     display: grid;
     grid-template-columns: 1fr;
@@ -52,3 +133,18 @@ text-align: center;
     font-weight: bold;
     text-transform: uppercase;
 }
+/* html {
+font-size: 100%;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 { 
+    color: cornflowerblue;
+    background-color: peachpuff;
+}
+
+body {
+    background-color: lightgoldenrodyellow;
+    max-width: 500px;
+    margin: 0 auto;
+} */
