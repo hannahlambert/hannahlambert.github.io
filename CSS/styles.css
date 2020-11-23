@@ -11,6 +11,7 @@ body {
     margin: 0 auto;
     padding: 0;
     min-height: 100%;
+    max-width: 1400px;
 }
  
 *,
@@ -24,7 +25,15 @@ img {
     height: auto;
     display: block;
 }
-
+.header-nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    line-height: 1rem;
+    overflow: hidden;
+    margin-bottom: 0.5rem;
+}
 .nav-bar {
     display: flex;
     flex-wrap: wrap;
@@ -65,21 +74,28 @@ img {
     text-decoration: none;
     letter-spacing: 0.2rem;
     padding: 0.8rem;
-    color: #000;
+    }
+    .logo {
+        margin: auto;
     }
 .logo a {
     font-weight: 700;
     font-size: 2rem;
 }
 .nav-menu a {
+    color: skyblue;
     font-weight: 400;
     letter-spacing: 0.1rem;
     border-bottom: 1px solid #fff;
-    transition: all ease 0.1s;
+    transition: all ease 0.5s;
 }
 .nav-menu a:hover {
     border-bottom: 1px solid #000;
 }
+.nav-menu :active {
+    transform: scale(0.9);
+}
+
 .hero-nav {
     background: none;
     grid-column: 1/-1;
