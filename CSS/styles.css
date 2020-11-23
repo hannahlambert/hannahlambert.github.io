@@ -40,7 +40,7 @@ img {
     justify-content: center;
     align-items: center;
     line-height: hidden;
-    background-color: #fff;
+    background-color: skyblue;
 }
 
 .logo,
@@ -95,6 +95,33 @@ img {
 .nav-menu :active {
     transform: scale(0.9);
 }
+
+@media (min-width: 600px) {
+    .header-nav {
+        line-height: 1.5rem;
+    }
+    .nav-menu {
+        width: 100%;
+    }
+    .nav-item {
+        flex: 1 0 10%
+    }
+}
+
+@media (min-width: 900px) {
+.header-nav {
+    justify-content: space-between;
+    padding: 1rem 0;
+    margin: 1rem auto 2rem auto;
+}
+.nav-menu {
+    width: auto;
+}
+.logo {
+    margin: 0 0 0 0.3rem;
+}
+}
+
 
 .hero-nav {
     background: none;
@@ -258,7 +285,8 @@ text-align: center;
 
 
 
-/* this sucks and I'm not having fun:( */
+/* this sucks and I'm not having fun:( */ 
+/* yeah it's 4:18 in the moring and im so tired */
 
 
 /* html {
