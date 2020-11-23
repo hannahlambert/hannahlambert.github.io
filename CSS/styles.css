@@ -97,7 +97,7 @@ z-index: 10;
     border-bottom: 1px solid black;
 }
 .hero-nav .nav-menu a {
-    border-bottom: 1px solid rgba (0,0,0,0);
+    border-bottom: 1px solid rgba(0,0,0,0);
 }
 
 .hero-box {
@@ -131,7 +131,7 @@ z-index: 10;
 
 .hero-image-box::after {
 content:"";
-background-color: rgba(0,0,0,0.6);
+background-color: rgba(0,0,0,0.4);
 height: 100%;
 width: 100%;
 position: absolute;
