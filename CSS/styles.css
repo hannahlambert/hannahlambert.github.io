@@ -148,20 +148,20 @@ text-align: center;
     letter-spacing: 0.05rem;
     font-weight: bold;
     text-transform: uppercase;
-    color: white;
+    color: black;
 }
  
 .hero-text {
     font-size: 1rem;
     margin-top: 0.5rem;
-    color: white;
+    color: black;
 }
 
 .hero-button {
     display: inline-block;
     padding: 0.75rem 2rem;
     background: none;
-    color: white;
+    color: black;
     font-size: 1.2rem;
     font-weight: bold;
     border: 1px solid white;
