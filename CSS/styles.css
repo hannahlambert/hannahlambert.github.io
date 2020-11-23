@@ -88,15 +88,27 @@ img {
    align-content: top;
 z-index: 10;
 }
+
 .hero-nav .logo a,
 .hero-nav .nav-menu a {
-    color: white;
+    color: black;
 }
 .hero-nav .nav-menu a:hover {
-    border-bottom: 1px solid #ffffff;
+    border-bottom: 1px solid black;
 }
 .hero-nav .nav-menu a {
     border-bottom: 1px solid rgba (0,0,0,0);
+}
+
+.hero-box {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 0;
+    align-content: center;
+    justify-content: center;
+    align-items: start;
+    height: 100%;
 }
 
 .hero-image-box {
@@ -119,16 +131,15 @@ z-index: 10;
 
 .hero-image-box::after {
 content:"";
-background-color: rgba(0,0,0,0.4);
+background-color: rgba(0,0,0,0.6);
 height: 100%;
 width: 100%;
 position: absolute;
-top: 0 ;
+top: 0;
 left: 0;
 }
 
-.hero-img, 
-.hero-img {
+.hero-img, .hero-img {
 width: 100%;
 height: 100%;
 object-fit: cover;
@@ -148,13 +159,13 @@ text-align: center;
     letter-spacing: 0.05rem;
     font-weight: bold;
     text-transform: uppercase;
-    color: black;
+    color: white;
 }
  
 .hero-text {
     font-size: 1rem;
     margin-top: 0.5rem;
-    color: black;
+    color:white ;
 }
 
 .hero-button {
@@ -164,7 +175,7 @@ text-align: center;
     color: black;
     font-size: 1.2rem;
     font-weight: bold;
-    border: 1px solid white;
+    border: 1px solid black;
     border-radius: 5px ;
     margin: 2rem;
 }
